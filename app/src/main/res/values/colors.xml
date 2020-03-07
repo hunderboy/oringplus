@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorPrimaryLight">#78C6B0</color>
+
+    <color name="colorSecondary">#3195FB</color>
+    <color name="colorGreen">#52E252</color>
+
+    <color name="match_Text_Color">#FFD228</color>
+
+
+    <color name="background">@android:color/white</color>
+
+
+    <color name="primaryTextColor">@color/primary_text_color_selector</color>
+    <color name="primaryTextColorInvert">@color/primary_text_color_invert_selector</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="secondaryTextColorInvert">#ffffff</color>
+
+
+</resources>

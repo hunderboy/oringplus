@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">OringMaster2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- BottomNavigationView Title -->
+    <string name="title_DimensionSearch">Dimension Search</string>
+    <string name="title_OringHousingFragment">Oring Housing</string>
+    <string name="title_AboutUsFragment">About Us</string>
+
+    <!-- DimensionSearchFragment Tab Title -->
+    <string name="tab_a_label">O-ring</string>
+    <string name="tab_b_label">X-ring</string>
+    <string name="tab_c_label">Back-Up ring</string>
+
+    <string name="Home_blank_fragment">Home fragment</string>
+    <string name="Game_blank_fragment">Game fragment</string>
+    <string name="Book_blank_fragment">Book fragment</string>
+
+    <string name="store_type_1">왼쪽</string>
+    <string name="store_type_2">오른쪽</string>
+
+    <string name="str_mode">Mode</string>
+    <string name="str_unit">Unit</string>
+    <string name="str_ID">ID</string>
+    <string name="str_CS">CS</string>
+    <string name="str_Standard">Standard</string>
+    <string name="str_No">No</string>
+    <string name="str_PM">+-</string>
+
+    <string name="str_zero_dot_zero">0.0</string>
+
+
+    <string name="str_mm">mm</string>
+    <string name="str_inch">inch</string>
+    <string name="str_mm_description">치수를 입력하여 주십시오.(소수점 두자리까지 표시)</string>
+    <string name="str_inch_description">치수를 입력하여 주십시오.(소수점 세자리까지 표시)</string>
+
+
+    <!-- color text -->
+    <string name="str_Matched">Matched</string>
+    <string name="str_Substituted">Substituted size \nwithin tolerance</string>
+    <string name="str_Closer">Closer sizes \nbeyond tolerance</string>
+
+
+
+
+
+
+
+
+
+    <!-- Store Class Tag , 내 가게의 [매장 정보] 등록화면의 필수 입력 항목-->
+    <string name="store_type_1_1">예약</string> <!--서버로 보내는 keyword 항목-->
+    <string name="store_type_1_2">맛집</string>
+    <string name="store_type_2_1">회식</string> <!--서버로 보내는 keyword 항목-->
+    <string name="store_type_2_2">뷰티</string>
+
+
+    <!--맛집 항목-->
+    <string name="food_type_1">한식</string>
+    <string name="food_type_2">중식</string>
+    <string name="food_type_3">일식</string>
+    <string name="food_type_4">BBQ</string>
+    <string name="food_type_5">양식</string>
+    <string name="food_type_6">아시아</string>
+    <!--회식 으로 다시 변경해야 함.-->
+    <string name="food_type_7_1">회식sub</string> <!--서버로 보내는 keyword 항목-->
+    <string name="food_type_7_2">회식</string>
+
+    <!-- 뷰티 항목-->
+    <string name="beauty_type_1">헤어</string>
+    <string name="beauty_type_2">네일</string>
+    <string name="beauty_type_3">메이크업</string>
+    <string name="beauty_type_4">스파</string>
+    <string name="beauty_type_5">마사지</string>
+    <string name="beauty_type_6">웨딩</string>
+    <string name="beauty_type_7">패키지</string>
+
+
+
+
+</resources>

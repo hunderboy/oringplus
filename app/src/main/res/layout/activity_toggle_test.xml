@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToggleTestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <!-- 분류 선택항목 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_spacing_small"
+            android:layout_marginEnd="@dimen/view_spacing_small"
+            android:layout_marginTop="@dimen/view_spacing_small">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="@dimen/view_spacing_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.button.MaterialButtonToggleGroup
+                    android:id="@+id/select_toggle_store_class_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:singleSelection="true"
+                    >
+
+                    <!--  필수 입력 항목 , 상단 버튼 -->
+                    <com.google.android.material.button.MaterialButton
+                        style="?attr/materialButtonOutlinedStyle"
+                        android:id="@+id/top_toggle_button_1"
+                        android:tag="@string/store_type_1_1"
+                        android:text="@string/store_type_1_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        style="?attr/materialButtonOutlinedStyle"
+                        android:id="@+id/top_toggle_button_2"
+                        android:tag="@string/store_type_2_1"
+                        android:text="@string/store_type_2_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+                <!--  필수 입력 항목 , 하단 버튼 -->
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.button.MaterialButtonToggleGroup
+                        android:id="@+id/select_toggle_store_food_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:singleSelection="true">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/bottom_toggle_button_1"
+                            style="?attr/materialButtonOutlinedStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tag="@string/food_type_1"
+                            android:text="@string/food_type_1" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/bottom_toggle_button_2"
+                            style="?attr/materialButtonOutlinedStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tag="@string/food_type_2"
+                            android:text="@string/food_type_2" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/bottom_toggle_button_3"
+                            style="?attr/materialButtonOutlinedStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tag="@string/food_type_3"
+                            android:text="@string/food_type_3" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/bottom_toggle_button_4"
+                            style="?attr/materialButtonOutlinedStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tag="@string/food_type_4"
+                            android:text="@string/food_type_4" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/bottom_toggle_button_5"
+                            style="?attr/materialButtonOutlinedStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tag="@string/food_type_5"
+                            android:text="@string/food_type_5" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/bottom_toggle_button_6"
+                            style="?attr/materialButtonOutlinedStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tag="@string/food_type_6"
+                            android:text="@string/food_type_6" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/bottom_toggle_button_7"
+                            style="?attr/materialButtonOutlinedStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tag="@string/food_type_7_1"
+                            android:text="@string/food_type_7_2" />
+
+
+                    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
