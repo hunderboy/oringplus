@@ -17,12 +17,12 @@
         android:layout_height="wrap_content">
     </com.google.android.material.tabs.TabLayout>
 
-    <androidx.viewpager.widget.ViewPager
+    <o2corn.oringclone.oringmaster2.NonSwipeViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
-    </androidx.viewpager.widget.ViewPager>
+    </o2corn.oringclone.oringmaster2.NonSwipeViewPager>
 
 
 </LinearLayout>

@@ -21,10 +21,21 @@
     <string name="store_type_1">왼쪽</string>
     <string name="store_type_2">오른쪽</string>
 
+    <!--    모드 뷰타입-->
+    <string name="mode_viewtype_1">table_viewtype</string>
+    <string name="mode_viewtype_2">scroll_viewtype</string>
+
+
+
     <string name="str_mode">Mode</string>
     <string name="str_unit">Unit</string>
     <string name="str_ID">ID</string>
     <string name="str_CS">CS</string>
+    <string name="str_W">W</string>
+    <string name="str_T">T</string>
+    <string name="str_A">A</string>
+    <string name="str_R">R</string>
+
     <string name="str_Standard">Standard</string>
     <string name="str_No">No</string>
     <string name="str_PM">+-</string>
@@ -37,11 +48,19 @@
     <string name="str_mm_description">치수를 입력하여 주십시오.(소수점 두자리까지 표시)</string>
     <string name="str_inch_description">치수를 입력하여 주십시오.(소수점 세자리까지 표시)</string>
 
+    <string name="question_text">상위 사이즈 금형이 없을수 있으니, 본사에 전화문의 바랍니다.</string>
+
 
     <!-- color text -->
     <string name="str_Matched">Matched</string>
     <string name="str_Substituted">Substituted size \nwithin tolerance</string>
     <string name="str_Closer">Closer sizes \nbeyond tolerance</string>
+    <string name="str_Closer_2">Closer sizes</string>
+
+    <!-- circle type -->
+    <string name="str_circle_type_red">red</string>
+    <string name="str_circle_type_blue">blue</string>
+    <string name="str_circle_type_green">green</string>
 
 
 

@@ -3,7 +3,6 @@
     android:id="@+id/oringitem_background"
     android:layout_width="match_parent"
     android:layout_height="20dp"
-    android:background="#ffFFE650"
     android:orientation="horizontal"
     android:weightSum="6">
 

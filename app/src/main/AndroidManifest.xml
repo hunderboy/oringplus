@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.oringmaster2">
+    package="com.oringclone.oringmaster2">
 
     <application
         android:allowBackup="true"
@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ToggleTestActivity"></activity>
+        <activity android:name="o2corn.oringclone.oringmaster2.ToggleTestActivity"></activity>
         <activity
-            android:name=".SplashActivity">
+            android:name="o2corn.oringclone.oringmaster2.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="o2corn.oringclone.oringmaster2.MainActivity"
             android:windowSoftInputMode="adjustPan">
         </activity>
     </application>

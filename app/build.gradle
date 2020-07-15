@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.example.oringmaster2"
+        applicationId "o2corn.oringclone.oringmaster2"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
@@ -38,6 +38,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.1.0-alpha09'
     // Json 객체 변환
     implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'androidx.fragment:fragment:1.1.0'
 
 
     testImplementation 'junit:junit:4.12'

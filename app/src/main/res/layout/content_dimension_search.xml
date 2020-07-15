@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/contents">
+
+
+                <include
+                    android:id="@+id/fragment_oring"
+                    android:visibility="visible"
+                    layout="@layout/table_oring"/>
+<!--                <include-->
+<!--                    android:id="@+id/layout_oring"-->
+<!--                    android:visibility="visible"-->
+<!--                    layout="@layout/table_oring"/>-->
+                <include
+                    android:id="@+id/layout_xring"
+                    android:visibility="gone"
+                    layout="@layout/table_xring"/>
+                <include
+                    android:id="@+id/layout_backupring"
+                    android:visibility="gone"
+                    layout="@layout/table_backupring"/>
+
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
